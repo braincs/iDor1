@@ -106,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
 //                    for (int i=0,len=BLE.bleScanList.size();i<len;i++) {
 //                        if (BLE.bleScanList.containsKey(MAC1))
 //                    }
-                    if (BLE.bleScanList.containsKey(MAC1)) bleNo += 1;
-                    if (BLE.bleScanList.containsKey(MAC2)) bleNo += 1;
-                    if (BLE.bleScanList.containsKey(MAC3)) bleNo += 1;
-                    if (BLE.bleScanList.containsKey(MAC4)) bleNo += 1;
+                    if (BLE.bleScanList.containsKey(MAC1)) bleNo++;
+                    if (BLE.bleScanList.containsKey(MAC2)) bleNo++;
+                    if (BLE.bleScanList.containsKey(MAC3)) bleNo++;
+                    if (BLE.bleScanList.containsKey(MAC4)) bleNo++;
                     Log.d("ScanResults",Integer.toString(bleNo));
 
                     double[][] dataTagLla = new double[3][bleNo];
