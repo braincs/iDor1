@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iDor1</string>
+    <string name="style_mb_sc_indoor">mapbox://styles/shuaic/citwohx9m007b2hlbxr0snuyr</string>
+    <string name="accessToken_SC">pk.eyJ1Ijoic2h1YWljIiwiYSI6ImNpdDlxYWhqMzAwM3cyeHBoNnI2amF2OHMifQ.vHZVcvbDqdIVnrhguAVuuw</string>
+</resources>

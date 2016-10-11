@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.shuai.idor1.MainActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        mapbox:style_url="@string/style_mb_sc_indoor"
+        mapbox:access_token="@string/accessToken_SC"
+        mapbox:center_latitude="39.99491301936064"
+        mapbox:center_longitude="116.47453555669603"
+        mapbox:zoom="15"
+
+        />
+</RelativeLayout>
